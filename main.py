@@ -1,4 +1,4 @@
-from calculator import add, subtract
+from calculator import add, subtract, multiply
 
 
 def main():
@@ -7,6 +7,7 @@ def main():
 
     print(f"{a} + {b} = {add(a, b)}")
     print(f"{a} - {b} = {subtract(a, b)}")
+    print(f"{a} * {b} = {multiply(a, b)}")
 
 
 if __name__ == "__main__":

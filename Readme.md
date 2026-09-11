@@ -1,8 +1,9 @@
 # Simple Python Calculator
 
-A minimal Python calculator project with two operations:
+A minimal Python calculator project with three operations:
 - `add(a, b)` – returns the sum of two numbers
 - `subtract(a, b)` – returns the difference of two numbers
+- `multiply(a, b)` – returns the product of two numbers
 
 ## Project Structure
 - `calculator.py` - calculator functions
