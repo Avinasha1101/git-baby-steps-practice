@@ -1,14 +1,23 @@
-# Agent Instructions Directory
+# Agent Instructions Catalog
 
 ## Overview
-This directory contains instruction files for AI agents working on the Turbo-Flux Showcase Deck Automation project. Each instruction file defines specific tasks, formats, and guidelines for automated report generation and documentation.
+This directory contains instruction files for AI agents working on the Turbo-Flux Showcase Deck Automation project. Each instruction file defines specific SDLC workflows, formats, and guidelines following the Single Responsibility Principle.
 
-## Available Instruction Files
+## Available Instructions
 
-### 1. create-status-report.agent.md
+### 1. [instructions/create-status-report.agent.md](create-status-report.agent.md)
 **Purpose:** Generate weekly status reports for team updates  
 **Output:** Markdown format, max 20 lines, 3 sections (accomplishments, blockers, next week)  
-**Usage:** Use when creating weekly team status updates or sprint summaries
++ **Keywords:** status report, weekly update, team report, sprint summary, progress report
++ **Target:** N/A (report generation)
++ **Exceptions:** None
+
+### 2. [instructions/creating-instructions.agent.md](creating-instructions.agent.md)
+**Purpose:** Guidelines for creating new agent instruction files following IDE-agnostic architecture  
+**Output:** Instruction file structure and best practices documentation  
++ **Keywords:** create instruction, new agent, instruction format, instruction guidelines, setup instructions
++ **Target:** instructions/*.agent.md
++ **Exceptions:** Don't use for modifying existing instructions, only for creating new ones
 
 ## How to Use These Instructions
 
